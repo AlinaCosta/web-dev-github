@@ -6,3 +6,13 @@ switched to a new branch  ----> git checkout -b feature (a new branch is created
 switch to main branch ----> git checkout main
 referring to the branch that contains the commits that should be merged into the main branch ----> git merge feature
 
+to delete files you have to be in the correct path ----> cd new-feature 
+delete files ----> git rm file.txt
+
+jump back to an earlier commit(delete the latest commit entirely) ----> git reset --hard HEAD~1
+jump back multiple commits ----> git reset --hard HEAD~3 ( or HEAD~2, HEAD~4, ... )
+
+delete a branch( you have to be currently in another branch) ----> git branch -D feature 
+
+reset the branch to the stage of the latest commit ----> git checkout -- .
+
