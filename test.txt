@@ -1,1 +1,19 @@
 This is my first commit!
+
+Git commands: 
+
+to initialize repository ---->  git init
+
+information about the current git project ----> git status
+
+add the file that should be tracked ----> git add test.txt
+adding commit ----> git commit -m "added test.txt file"
+
+user information ----> git config --global --edit (leave this menu with esc:x )
+add user name ----> git config --global user.name "Alina Costa"
+add user email ----> git config --global user.email "alinacosta87@gmail.com"
+
+an overview of all commits ----> git log
+
+add all untracked files and also add all changes made to track files to the staging area  ----> git add . 
+then add the commit message ----> git commit -m "changed test.txt and added second-commit.txt"
