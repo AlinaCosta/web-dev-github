@@ -1,0 +1,8 @@
+Git commands 2 :
+
+branch name ----> git branch
+change branch name ----> git branch -m main 
+add new branches  ----> git checkout -b feature (a new branch is created -> feature)
+switch to main branch ----> git checkout main
+referring to the branch that contains the commits that should be merged into the main branch ----> git merge feature
+
